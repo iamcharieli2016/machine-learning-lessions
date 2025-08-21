@@ -1,0 +1,38 @@
+# 李宏毅机器学习2021课程练习项目依赖
+# Machine Learning 2021 Course Dependencies
+
+# 核心数据科学库
+numpy>=1.21.0
+matplotlib>=3.5.0
+pandas>=1.3.0
+
+# 机器学习库
+scikit-learn>=1.0.0
+torch>=1.10.0
+torchvision>=0.11.0
+
+# 深度学习相关
+tensorflow>=2.7.0
+keras>=2.7.0
+
+# 可视化库
+seaborn>=0.11.0
+plotly>=5.0.0
+
+# Jupyter支持
+jupyter>=1.0.0
+ipykernel>=6.0.0
+notebook>=6.4.0
+
+# 数据处理
+scipy>=1.7.0
+pillow>=8.3.0
+
+# 工具库
+tqdm>=4.62.0
+requests>=2.26.0
+
+# 开发工具
+black>=21.9.0
+flake8>=4.0.0
+pytest>=6.2.0
