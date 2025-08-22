@@ -10,6 +10,10 @@ Simple Gradient Descent Demo
 import numpy as np
 import matplotlib.pyplot as plt
 
+# 设置中文字体支持
+plt.rcParams['font.sans-serif'] = ['Arial Unicode MS', 'SimHei', 'DejaVu Sans']
+plt.rcParams['axes.unicode_minus'] = False
+
 def simple_gradient_descent_demo():
     """
     最简单的梯度下降演示
